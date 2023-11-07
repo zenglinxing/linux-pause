@@ -8,9 +8,13 @@ This file is part of Linux-pause, in ./CMakeLists.txt
 cmake_minimum_required(VERSION 3.9)
 
 project(Linux-pause
-        VERSION 0.0.0
+        VERSION 0.1.0
         LANGUAGES C
         DESCRIPTION "The pause command simulating that under Windows."
         )
 
 add_executable(pause pause.c)
+
+install(TARGETS pause
+        EXPORT LinuxPause
+        RUNTIME DESTINATION bin)
