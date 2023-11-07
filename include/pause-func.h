@@ -3,7 +3,7 @@
 Author: Lin-Xing Zeng
 Email:  jasonphysics@outlook.com | jasonphysics19@gmail.com
 
-This file is part of Linux-pause, in ./lib/pause-func.h
+This file is part of Linux-pause, in ./include/pause-func.h
 */
 
 int winpause(void);
