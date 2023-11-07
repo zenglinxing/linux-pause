@@ -1,0 +1,1 @@
+Using 'pause' command on Linux, showing "Press any key to continue". Just like what 'pause' does on Windows.
