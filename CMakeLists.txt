@@ -8,7 +8,7 @@ This file is part of Linux-pause, in ./CMakeLists.txt
 cmake_minimum_required(VERSION 3.9)
 
 project(Linux-pause
-        VERSION 0.2.0
+        VERSION 0.3.0
         LANGUAGES C
         DESCRIPTION "The pause command simulating that under Windows."
         )
